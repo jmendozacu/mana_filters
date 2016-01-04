@@ -11,8 +11,22 @@ For more information please visit https://www.magentocommerce.com/magento-connec
 Installation
 ------------
 
-Run the following command:
+Add the `require` and `repositories` sections to your composer.json as shown in example below and run `composer update`.
+
+*composer.json example*
 
 ```
-composer require kirchbergerknorr/mana_filters
+{
+    ...
+    
+    "repositories": [
+        {"type": "git", "url": "https://github.com/kirchbergerknorr/mana_filters"},
+    ],
+    
+    "require": {
+        "kirchbergerknorr/mana_filters": "*"
+    },
+    
+    ...
+}
 ```
