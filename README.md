@@ -11,9 +11,7 @@ For more information please visit https://www.magentocommerce.com/magento-connec
 Installation
 ------------
 
-Add the `require` and `repositories` sections to your composer.json as shown in example below and run `composer update`.
-
-*composer.json example*
+Add the `require` and `repositories` sections to your composer.json as shown below and run `composer update`.
 
 ```
 {
